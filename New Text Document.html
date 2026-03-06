@@ -51,14 +51,14 @@
 </head>
 <body class="min-h-screen p-4 md:p-8">
 
-    <!-- Chosen Palette: Warm Neutrals (Alabaster background, Charcoal text, Camel/Bronze accents) -->
+    <!-- Chosen Palette: Warm Neutrals -->
     
     <!-- Application Structure Plan: The SPA is structured as an interactive dashboard. Instead of scrolling through static text blocks, the user interacts with a "Translation Explorer." This layout was chosen because translation quality is best judged side-by-side. The left panel houses the context and interactive text comparisons (Source vs Target) governed by language toggles. The right panel features a dynamic competency chart that updates based on the selected domain (Marketing vs Subtitles vs Legal), visually demonstrating the different cognitive skills required for each type of manual translation. -->
     
     <!-- Visualization & Content Choices: 
-    1. Interactive Text Explorer: Presents the core portfolio data. Users select a domain and target language. Justification: Translators need to show context and adaptation. The side-by-side layout mimics professional CAT (Computer-Assisted Translation) tools.
-    2. Dynamic Radar Chart (Chart.js): Maps 5 translation competencies (Transcreation, Precision, Pacing, Terminology, Localization) against the selected sample. Justification: Provides a quantitative visual representation of qualitative skills, changing as the user clicks through samples to show versatility.
-    3. NO SVG/Mermaid: Used clean HTML structure, Tailwind CSS styling, and standard Unicode emojis for visual iconography to adhere strictly to constraints. -->
+    1. Interactive Text Explorer: Presents the core portfolio data. Users select a domain and target language.
+    2. Dynamic Radar Chart (Chart.js): Maps 5 translation competencies against the selected sample.
+    3. NO SVG/Mermaid: Used clean HTML structure, Tailwind CSS styling, and standard Unicode emojis. -->
     
     <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
 
@@ -184,7 +184,7 @@
                 sourceText: `"Hey guys, welcome back! Today we are finally unboxing the most anticipated smartphone of the year. Before we dive into the specs, make sure to hit that subscribe button."`,
                 translations: {
                     es: `"¡Hola a todos, bienvenidos de nuevo! Hoy por fin vamos a desempacar el smartphone más esperado del año. Antes de entrar en las especificaciones, asegúrense de hacer clic en el botón de suscripción."`,
-                    de: `"Hallo Leute, willkommen zurück! Heute packen wir endlich das am heißesten erwartete Smartphone des Jahres aus. Bevor wir uns die Details ansehen, klickt unbedingt auf den Abonnieren-Button."`,
+                    de: `"Hallo Leute, willkommen zurück! Heute pack wir endlich das am heißesten erwartete Smartphone des Jahres aus. Bevor wir uns die Details ansehen, klickt unbedingt auf den Abonnieren-Button."`,
                     ar: `"أهلاً بكم من جديد! اليوم سنقوم أخيراً باستعراض الهاتف الذكي الأكثر انتظاراً لهذا العام. وقبل أن ننتقل إلى المواصفات، تأكدوا من الضغط على زر الاشتراك."`
                 },
                 notes: `Subtitling requires strict adherence to reading speeds and character limits. I focused on maintaining the high-energy "vlogger" persona by using natural, colloquial greetings and ensuring the sentence structure allowed for easy reading while synchronized with the video's pacing. For the Arabic version, I opted for a modern, accessible style rather than overly stiff formal structures.`,
